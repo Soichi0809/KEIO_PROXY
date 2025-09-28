@@ -7,15 +7,13 @@
         "activeTab"
     ],
     "action": {
-        "default_icon": "fav.ico",
+        "default_icon": "icon.png",
         "default_title": "Keio Krasでリダイレクト"
     },
     "background": {
         "service_worker": "background.js"
     },
     "icons": {
-        "16": "fav.ico",
-        "48": "fav.ico",
-        "128": "fav.ico"
+        "128": "icon.png"
     }
 }
