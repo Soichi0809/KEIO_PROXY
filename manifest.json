@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Keio Kras Redirector",
+    "version": "1.0",
+    "description": "現在のページのURLを慶應義塾大学のkrasプロキシ経由のURLにリダイレクトします。",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_icon": "fav.ico",
+        "default_title": "Keio Krasでリダイレクト"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "fav.ico",
+        "48": "fav.ico",
+        "128": "fav.ico"
+    }
+}
